@@ -1,0 +1,65 @@
+<?php require_once('functions.php'); ?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <?php echo head();?>
+        <link href="http://fonts.googleapis.com/css?family=Gudea:400,400italic,700" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1 style="display:inline;">
+                    IAM
+                </h1>
+                <h4 style="display:inline;">
+                    OPENSOURCEFAN
+                    <span class="header-navigation">
+                        <a href="http://davidstutz.de/">BLOG</a>
+                        <a href="http://davidstutz.de/impressum-legal-notice/">IMPRINTLEGALNOTICE</a>
+                    </span>
+                    <br>
+                    STUDYINGMATHANDCOMPUTERSCIENCE
+                    <a href="#" class="header-social"><span class="elusive icon-twitter"></span></a>
+                    <a href="#" class="header-social"><span class="elusive icon-github"></span></a>
+                </h4>
+                <div class="row">
+                    <div class="col-md-3">
+                        <h1>DAVIDSTUTZ</h1>
+                    </div>
+                    <div class="col-md-9">
+                        <ul class="nav nav-pills">
+                            <?php echo menu(1); ?>
+                        </ul>
+                    </div>
+                </div>
+                <h4>
+                    RWTHSTUDENTWEBDEVELOPER<br>
+                    VIDEOGAMEENTHUSIAST
+                </h4>
+            </div>
+            <div class="content">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-1">
+                        <?php echo content(); ?>
+                    </div>
+                    <div class="col-md-3">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="text-muted">
+                            <small>
+                                COPYRIGHT<b>DAVIDSTUTZ</b><br>
+                                POWEREDBY<a href="http://www.cmsimple-xh.org/">CMSIMPLEXH</a><br>
+                                SUPPORTEDBY<a href="http://rs-computer.de">RSCOMPUTER</a>
+                            </small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

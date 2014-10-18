@@ -1,0 +1,68 @@
+@import url('css/bootstrap.css');
+
+.bx-wrapper {
+	position: relative;
+	margin: 0 auto 60px;
+	padding: 0;
+	*zoom: 1;
+}
+.bx-wrapper img {
+	max-width: 100%;
+	display: block;
+}
+.bx-wrapper .bx-viewport {
+	-moz-box-shadow: 0 0 5px #eee;
+	-webkit-box-shadow: 0 0 5px #eee;
+	box-shadow: 0 0 5px #eee;
+	border: solid #eee 3px;
+	left: -5px;
+	background: #eee;
+}
+.bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto {
+	position: absolute;
+	bottom: -30px;
+	width: 100%;
+}
+.bx-wrapper .bx-prev {
+	left: -40px;
+}
+.bx-wrapper .bx-next {
+	right: -40px;
+}
+.bx-wrapper .bx-controls-direction a {
+	color: #989D9D;
+	position: absolute;
+	top: 50%;
+	margin-top: -16px;
+	outline: 0;
+	width: 21px;
+	height: 32px;
+	text-indent: -9999px;
+	z-index: 9;
+	border: none;
+	padding: 0;
+}
+.bx-wrapper .bx-controls-direction a img {
+	color: #989D9D;
+	border: none !important;
+	border-color: transparent;
+}
+.bx-wrapper .bx-controls-direction a.disabled {
+	display: none;
+}
+.bx-wrapper .bx-caption {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: #666\9;
+	background: rgba(80, 80, 80, 0.75);
+	width: 100%;
+}
+.bx-wrapper .bx-caption span {
+	color: #fff;
+	font-family: Arial;
+	display: block;
+	font-size: .85em;
+	padding: 10px;
+}
