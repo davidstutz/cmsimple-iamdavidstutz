@@ -1,6 +1,6 @@
 # CMSimple Theme IAMDAVIDSTUTZ
 
-This is the theme used for my personal CMSimple XH page: [davidstutz.de/cmsimple](http://davidstutz.de/cmsimple). **If you use parts of this theme, please change both the header and the footer!** - That is remove the following names and companies: David Stutz, RS Computer.
+This is a simple theme used for my old personal CMSimple XH page. **If you use parts of this theme, please change both the header and the footer!** - That is remove the following names and companies: David Stutz, RS Computer.
 
 ## License
 
